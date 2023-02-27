@@ -4,12 +4,12 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     
-    <link rel="alternate" type="application/rss+xml" href="/categories/index.xml" title="ERP4FOOD" />
-    <link rel="canonical" href="/categories/">
+    <link rel="alternate" type="application/rss+xml" href="/commoninformation/barcodelabels/barcodelabelsbox/index.xml" title="ERP4FOOD" />
+    <link rel="canonical" href="/commoninformation/barcodelabels/barcodelabelsbox/">
 
     <title>
         
-        Categories | ERP4FOOD
+        Создание этикетки для короба | ERP4FOOD
         
     </title>
 
@@ -51,7 +51,7 @@
             </div>
     </div>
     <div class="feed-icons">
-            <a href="/categories/index.xml"><img src="/img/feed-icon.svg" alt="RSS feed" /></a>
+            <a href="/commoninformation/barcodelabels/barcodelabelsbox/index.xml"><img src="/img/feed-icon.svg" alt="RSS feed" /></a>
         </div>
     </nav>
 <div class="container-fluid">
@@ -70,14 +70,14 @@
         
 
          <ul class="navbar-nav flex-column pt-3">
-    <li data-nav-id="/commoninformation/" class="nav-item my-1 haschildren
+    <li data-nav-id="/commoninformation/" class="nav-item my-1 parent haschildren
         ">
         
         
           <a class="nav-link p-0" href="/commoninformation/"><h6>Общая информация</h6></a>
         
         <ul class="list-unstyled ml-2">
-    <li data-nav-id="/commoninformation/barcodelabels/" class="nav-item my-1 haschildren
+    <li data-nav-id="/commoninformation/barcodelabels/" class="nav-item my-1 parent haschildren
         ">
         
         
@@ -91,7 +91,7 @@
           <a class="nav-link p-0" href="/commoninformation/barcodelabels/barcodelabelsproduct/"><h6>Создание этикетки для товара</h6></a>
         
     </li>
-    <li data-nav-id="/commoninformation/barcodelabels/barcodelabelsbox/" class="nav-item my-1
+    <li data-nav-id="/commoninformation/barcodelabels/barcodelabelsbox/" class="nav-item my-1 active
         ">
         
         
@@ -185,14 +185,14 @@
 
 </div>
                 <div class="docs-toc large order-lg-2 order-md-0 order-xs-1 col-12 col-lg-2 col-xl-2 position-sticky border-left"><div class="docs-toc">
-	
+	<nav id="TableOfContents"></nav>
 </div>
 </div>
                 <div class="main col-12 order-1 col-md-9 col-lg-10 col-xl-8 py-3">
                 
 
 <div class="d-flex flex-column">
-    <h1 class="js-title">Categories</h1>
+    <h1 class="js-title">Создание этикетки для короба</h1>
     <div class="d-flex align-items-center">
         
     </div>
@@ -201,6 +201,141 @@
 <hr>
 
 
+<p>Для создания этикетки короба нужно в <strong>&ldquo;Назначении&rdquo;</strong> выбрать <strong>&ldquo;Этикетка для штрихкодов упаковок&rdquo;</strong>.</p>
+<p>Cтандартный шаблон включает в себя <em>Серийный номер</em> и <em>Штрихкод с типом GS1 DataBar Expanded Stacked</em></p>
+<p>Для настройки собственного шаблона нажимаем на <strong>&ldquo;Изменить в редакторе&rdquo;</strong></p>
+<p><img src="2_1.png" alt=""></p>
+<p>Открывается окно конструктора этикетки.</p>
+<p>Мы можем изменить высоту и ширину этикетки, для этого вводим значения в соответствующие поля сверху</p>
+<p><img src="2_2.png" alt=""></p>
+<p>В качестве типа штрихкода имеется возможность выбора <em>GS1 DataBar Expanded Stacked</em> или <em>GS1-128</em></p>
+<p><img src="2_3.png" alt=""></p>
+<p>Список всех доступных полей для добавления на этикетку расположен в меню слева.</p>
+<p><img src="2_4.png" alt=""></p>
+<p>Для того, чтобы использовать идентификаторы применения GS1, помимо добавления на шаблон этикетки, их нужно добавить в таблицу ниже. Для этого нажимаем на кнопку <strong>&ldquo;Ещё&rdquo;</strong> и выбираем <strong>&ldquo;Подбор&rdquo;</strong></p>
+<p><img src="2_5.png" alt=""></p>
+<p>Выбираем нужные идентификаторы и нажимаем <strong>&ldquo;Готово&rdquo;</strong></p>
+<p><img src="2_6.png" alt=""></p>
+<p>Выбранные идентификаторы отобразятся в таблице.</p>
+<p><img src="2_7.png" alt=""></p>
+<p>Список доступных полей для печати в стационарной маркировке:</p>
+<table>
+<thead>
+<tr>
+<th>Идентификатор</th>
+<th>Описание</th>
+<th>Обязательный</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>SSCC (00)</td>
+<td>Серийный код транспортной упаковки</td>
+<td>Нет</td>
+</tr>
+<tr>
+<td>GTIN (01)</td>
+<td>Глобальный номер предмета торговли</td>
+<td>Да</td>
+</tr>
+<tr>
+<td>GTIN (02)</td>
+<td>GTIN предметов торговли содержимого логистической единицы</td>
+<td>Нет</td>
+</tr>
+<tr>
+<td>Номер партии (10)</td>
+<td>Номер серии</td>
+<td>Да</td>
+</tr>
+<tr>
+<td>Дата производства (11)</td>
+<td>Дата изготовления</td>
+<td>Да</td>
+</tr>
+<tr>
+<td>Срок годности (12)</td>
+<td>Дата, до которой товар считается пригодным для использования</td>
+<td>Нет</td>
+</tr>
+<tr>
+<td>Дата упаковки (13)</td>
+<td>Дата упаковывания</td>
+<td>Нет</td>
+</tr>
+<tr>
+<td>Дата до которой лучше всего использовать товар (15)</td>
+<td>Дата реализации</td>
+<td>Нет</td>
+</tr>
+<tr>
+<td>Дата истечения срока годности (17)</td>
+<td>Дата окончания срока годности</td>
+<td>Нет</td>
+</tr>
+<tr>
+<td>Вариант исполнения (20)</td>
+<td>Вариант продукции</td>
+<td>Нет</td>
+</tr>
+<tr>
+<td>Серийный номер (21)</td>
+<td>Номер короба в серии</td>
+<td>Да</td>
+</tr>
+<tr>
+<td>Дополнительный идентификатор (240)</td>
+<td>Дополнительная идентификация предмета</td>
+<td>Нет</td>
+</tr>
+<tr>
+<td>Количество единиц (30)</td>
+<td>Число штучных предметов</td>
+<td>Нет</td>
+</tr>
+<tr>
+<td>Масса нетто в кг. (310X)</td>
+<td>Вес нетто, килограммы</td>
+<td>Нет</td>
+</tr>
+<tr>
+<td>Количество вложенных единиц (37)</td>
+<td>Число предметов торговли</td>
+<td>Нет</td>
+</tr>
+<tr>
+<td>Дата истечения срока годности (скоропорт) (7003)</td>
+<td>Дата и время окончания срока годности</td>
+<td>Нет</td>
+</tr>
+<tr>
+<td>Цена за единицу (8005)</td>
+<td>Цена за единицу величины</td>
+<td>Нет</td>
+</tr>
+<tr>
+<td>Дата/Время производства (8008)</td>
+<td>Дата и время изготовления предмета торговли</td>
+<td>Нет</td>
+</tr>
+</tbody>
+</table>
+<p>Перед сохранением шаблона можно посмотреть как будет выглядеть этикетка. Для этого нужно нажать на кнопку <strong>&ldquo;Напечатать образец&rdquo;</strong>.</p>
+<p><img src="2_9.png" alt=""></p>
+<p><img src="2_10.png" alt=""></p>
+<p>После добавления необходимых полей нажимаем <strong>&ldquo;Записать и закрыть&rdquo;</strong>.</p>
+<p>Созданный шаблон появится в списке доступных этикеток.</p>
+<p><img src="2_11.png" alt=""></p>
+<p>Для того, чтобы установить сформированную этикетку, необходимо перейти в подсистему <strong>&ldquo;Нормативно-справочная информация&rdquo;</strong> и в разделе <strong>&ldquo;Номенклатура&rdquo;</strong> перейти в <strong>&ldquo;Классификаторы номенклатуры&rdquo;</strong>.</p>
+<p><img src="2_12.png" alt=""></p>
+<p>Далее нужно выбрать &ldquo;Упаковки характеристик&rdquo;.</p>
+<p><img src="2_13.png" alt=""></p>
+<p>В открывшемся окне нажимаем <strong>&ldquo;Создать&rdquo;</strong>.</p>
+<p><img src="2_14.png" alt=""></p>
+<p>Выбираем новую этикетку и нажимаем <strong>&ldquo;Записать и закрыть&rdquo;</strong>.</p>
+<p><img src="2_15.png" alt=""></p>
+<p>Этикетка появится в списке.</p>
+<p><img src="16.png" alt=""></p>
 
 
     

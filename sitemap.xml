@@ -2,11 +2,44 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://Lpaladie.github.io/demo1/</loc>
-    <lastmod>2023-02-27T16:54:50+03:00</lastmod>
+    <loc>/</loc>
+    <lastmod>2023-02-20T17:46:00+03:00</lastmod>
   </url><url>
-    <loc>https://Lpaladie.github.io/demo1/categories/</loc>
+    <loc>/commoninformation/</loc>
+    <lastmod>2023-02-20T17:46:00+03:00</lastmod>
   </url><url>
-    <loc>https://Lpaladie.github.io/demo1/tags/</loc>
+    <loc>/commoninformation/barcodelabels/barcodelabelsproduct/</loc>
+    <lastmod>2023-02-20T17:38:19+03:00</lastmod>
+  </url><url>
+    <loc>/commoninformation/barcodelabels/</loc>
+    <lastmod>2023-02-20T17:38:19+03:00</lastmod>
+  </url><url>
+    <loc>/commoninformation/barcodelabels/barcodelabelsbox/</loc>
+    <lastmod>2023-02-20T17:36:58+03:00</lastmod>
+  </url><url>
+    <loc>/customerservice/</loc>
+  </url><url>
+    <loc>/commoninformation/barcodelabels/barcodelabelspallete/</loc>
+    <lastmod>2023-02-20T17:37:51+03:00</lastmod>
+  </url><url>
+    <loc>/commoninformation/businessregion/</loc>
+  </url><url>
+    <loc>/commoninformation/container/</loc>
+  </url><url>
+    <loc>/commoninformation/contractor/contractor/</loc>
+  </url><url>
+    <loc>/commoninformation/deliverypoint/deliverypoint/</loc>
+  </url><url>
+    <loc>/commoninformation/department/department/</loc>
+  </url><url>
+    <loc>/commoninformation/documentsofindividuals/documentsofindividuals/</loc>
+  </url><url>
+    <loc>/commoninformation/holding/holding/</loc>
+  </url><url>
+    <loc>/commoninformation/kindofnomenclature/kindofnomenclature/</loc>
+  </url><url>
+    <loc>/categories/</loc>
+  </url><url>
+    <loc>/tags/</loc>
   </url>
 </urlset>
